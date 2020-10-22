@@ -1,0 +1,35 @@
+.login2__twitterIcon{
+    color: var(--twitter-color);
+    font-size: 50px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login2__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+.login2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.login2__formControl{
+    width: 100% !important;
+}
+.login2__button{
+    border: none !important;
+    color: var(--twitter-background) !important;
+    background-color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 100% !important;
+    border: 1px solid var(--twitter-color) !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}

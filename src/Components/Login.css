@@ -1,0 +1,107 @@
+.login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.login__left{
+    flex: 0.5;
+    background-image: url('https://lh3.googleusercontent.com/proxy/gSbX0dYqtTkKbkmAWicKAV1k0yCJZ5KqpawYLe4ZlUIXlGKeiclNAA7m657p3xUFO-7uxP7LYMy-xhB1nV315HSIqCb-3OrKsxnsLiIY0hkzQe1k2Fz-wIEw9HSGAu1-SYslc-e8CKmIHG59PdJu9g');
+    background-size: 1190px;
+    padding-top: 240px;
+}
+.login__right{
+    flex:0.5;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.login__leftTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+.login__form{
+    display: flex;
+}
+.login__formControl{
+    background-color: #F5F8FA;
+    margin-right: 5px;
+    width: 300px;
+    margin: 10px !important;
+    border-radius: 10px;
+}
+.login__button{
+    border: none !important;
+    color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 90px;
+    border: 1px solid var(--twitter-color) !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+.login__rightBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.login__rightBody > h2 {
+    margin-top: 50px;
+}
+.login__twitterIcon{
+    color: var(--twitter-color);
+    font-size: 50px !important;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.login__button1{
+    border: none !important;
+    color: var(--twitter-background) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 100%;
+    height: 50px !important;
+    margin-top: 20px !important;
+    background-color: var(--twitter-color) !important;
+}
+.login__button2{
+    border: none !important;
+    color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 100%;
+    border: 1px solid var(--twitter-color) !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+.login__leftTitle > h2 {
+    margin-left: 5px;
+}
+.login__formModal{
+    display: flex;
+    flex-direction: column;
+}
+.login__twitterIcon2{
+    color: var(--twitter-color);
+    font-size: 50px !important;
+}
+.login__buttonForm{
+    border: none !important;
+    color: var(--twitter-background) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 100%;
+    background-color: var(--twitter-color) !important;
+    margin-top: 10px !important;
+}
