@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route exact path="/Twitter-clone-app" component={Login} />
+          <Route exact path="/Twitter-clone-app/" component={Login} />
           <Route exact path="/login" component={Login2} />
           <Route
             exact
